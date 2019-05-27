@@ -10,7 +10,7 @@ Calculator.factory = function (type) {
   if (typeof Calculator[constr] !== 'function') {
     throw {
       name: "Error",
-      message: constr + "doesn't exist"
+      message: constr + " doesn't exist"
     }
   }
 
@@ -24,6 +24,24 @@ Calculator.factory = function (type) {
 Calculator.add = function () {
   this.computeStrategy = function (a, b) {
     return a + b
+  }
+}
+
+Calculator.sub = function () {
+  this.computeStrategy = function (a, b) {
+    return a - b
+  }
+}
+
+Calculator.mul = function () {
+  this.computeStrategy = function (a, b) {
+    return a * b
+  }
+}
+
+Calculator.div = function () {
+  this.computeStrategy = function (a, b) {
+    return a / b
   }
 }
 
