@@ -1,0 +1,26 @@
+{
+  "name": "design-pattern-js",
+  "version": "1.0.0",
+  "description": "Implement the common design patterns in js with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chi1010860/design-pattern-js.git"
+  },
+  "author": "chi1010860",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chi1010860/design-pattern-js/issues"
+  },
+  "homepage": "https://github.com/chi1010860/design-pattern-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@types/jest": "^24.0.13",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
+}
