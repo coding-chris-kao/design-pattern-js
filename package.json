@@ -18,8 +18,10 @@
   "homepage": "https://github.com/chi1010860/design-pattern-js#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/node": "^7.5.5",
     "@babel/preset-env": "^7.4.5",
     "@types/jest": "^24.0.13",
+    "babel-cli": "^6.26.0",
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0"
   }
