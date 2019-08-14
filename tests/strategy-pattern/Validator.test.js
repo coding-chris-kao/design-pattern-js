@@ -1,4 +1,4 @@
-import Validator from './Validator.js'
+import Validator from '../../src/strategy-pattern/Validator.js'
 
 describe('Validator', () => {
     test('isId', () => {
